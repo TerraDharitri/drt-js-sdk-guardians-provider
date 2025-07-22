@@ -1,6 +1,6 @@
 {
   "name": "@terradharitri/sdk-guardians-provider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Co-Signing provider for DharitrI DApps",
   "main": "out/index.js",
   "types": "out/index.d.js",
@@ -20,13 +20,12 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@types/node": "17.0.23",
-    "esmify": "2.1.1",
     "typescript": "5.0.3",
-    "@terradharitri/sdk-core": "0.1.11",
+    "@terradharitri/sdk-core": ">= 0.1.11",
     "axios": "1.6.5"
   },
   "peerDependencies": {
-    "@terradharitri/sdk-core": "0.1.11",
+    "@terradharitri/sdk-core": ">= 0.1.11",
     "axios": ">= 1.6.5"
   }
 }
